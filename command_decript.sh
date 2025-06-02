@@ -1,5 +1,8 @@
+var_path=`pwd`
+echo $var_path
+
 # Exécution du script Python avec Python 3
-PYTHON_SCRIPT="./SESSION8/bin/verify.py"
+PYTHON_SCRIPT="$var_path/bin/verify.py"
 
 if [ -f "$PYTHON_SCRIPT" ]; then
     echo "Exécution du script Python : $PYTHON_SCRIPT"
